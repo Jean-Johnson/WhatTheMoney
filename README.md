@@ -22,3 +22,7 @@ then execute
 ```
 python manage.py runserver --port 5000 --host "0.0.0.0"
 ```
+
+## sample api
+
+run ``` 127.0.0.1:500/health ``` in browser
