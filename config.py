@@ -13,6 +13,7 @@ class Config:
 
 class DevConfig(Config):
     TEST ="test124"
+    MONGO_URI = "mongodb://localhost:27017/myDatabase"
 
 config = {
     "dev":DevConfig
